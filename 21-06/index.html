@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21-06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo1">Manipulando o Dom</h1>
+        <h2></h2>
+    </header>
+    
+    <p name="texto"></p>
+    <p name="texto"></p>
+    <img src="javaScript.png" onmouseover="trocaImagem()" onmouseout="voltaImagem()" alt="">
+    
+
+    <main>
+        <h2></h2>
+        <h2></h2>
+        <form action="">
+            <label for="club">Nome do time:</label>
+            <input type="text" id="club">
+            <button type="button" onclick="inserir()">Adcionar</button>
+            <br>
+            <label for="clubRemove">Nome do time:</label>
+            <input type="text" id="clubRemove">
+            <button type="button" onclick="remover()">Remover</button>
+        </form>
+        <ol id="listaTimes">
+            <li>Palmeiras</li>
+        </ol>
+
+    </main>
+
+    <h3>Cor de Fundo</h3>
+    <button type="button" onclick="mudaCor()">Cor</button>
+    <button type="button" id="btn"></button>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>

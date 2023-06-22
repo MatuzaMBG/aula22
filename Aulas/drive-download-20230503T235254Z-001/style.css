@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+section {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+section h2 {
+    text-align: center;
+}
+.foto img{
+    width: 300px;
+    border-radius: 10px;
+}
+.about{
+    padding: 20px;
+    display: flex;
+}
+.text{
+    padding: 20px;
+    text-align: justify;
+}
+
+
+.projeto {
+    width: 290px;
+    margin: 20px 2%;
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    width: 280px;
+    height: 154px;
+    
+}
+
+section img:hover{
+    border: 1px solid lightgray;
+
+}
+
+.projeto h3 {
+    margin: 10px 0;
+}
+
+.projeto p {
+    text-align: justify;
+    
+}
+.projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    header {
+    flex-direction: column;
+    align-items: center;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+@media screen and (max-width: 450px) {
+    footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20%;
+    }
+    
+    
+}
+
+
+
+
+
+
+

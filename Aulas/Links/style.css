@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav{
+    height: 10vh;
+    background-color: #333;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+section{
+    border: 3px solid;
+    height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
